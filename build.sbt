@@ -10,6 +10,11 @@ version := "1.0"
 /** Scala version */
 scalaVersion := "2.12.4"
 
+assemblyMergeStrategy in assembly := {
+  case PathList("META-INF", "MANIFEST.MF") => MergeStrategy.discard
+  case _ => MergeStrategy.first
+}
+
 /** Scalac parameters */
 scalacOptions ++= Seq("-feature", "-unchecked", "-deprecation", "-encoding", "utf8")
 
