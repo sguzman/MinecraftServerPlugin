@@ -1,0 +1,4 @@
+name: Hello
+version: 1
+author: Salvador Guzman
+main: com.github.sguzman.scala.minecraft.Main
