@@ -31,7 +31,8 @@ resolvers ++= Seq(
 
 /** Source Dependencies */
 libraryDependencies ++= Seq(
-  "org.spigotmc" % "spigot-api" % "1.11.2-R0.1-SNAPSHOT"
+  "org.spigotmc" % "spigot-api" % "1.11.2-R0.1-SNAPSHOT",
+  "org.scala-lang" % "scala-library" % "2.12.4"
 )
 
 /** Make sure to fork on run */
